@@ -1,0 +1,85 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": false,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "game",
+	"libVersion": "2.8.3",
+	"appid": "wx6ac3f5090a6b99c5",
+	"projectname": "gun_debug",
+	"isGameTourist": true,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": 5,
+			"list": [
+				{
+					"id": 0,
+					"name": "广告生效前",
+					"query": "appid=wxaecbf97124a50aa2&start=20200513121500&ald_media_id=17670&ald_link_key=a732039a2b7053e8",
+					"scene": "1095"
+				},
+				{
+					"id": 1,
+					"name": "广告生效后",
+					"query": "appid=wxaecbf97124a50aa2&start=20190513121500&ald_media_id=17670&ald_link_key=a732039a2b7053e8",
+					"scene": "1095"
+				},
+				{
+					"id": 2,
+					"name": "跳转 - 广告生效后",
+					"query": "appid=wxaecbf97124a50aa2&start=20190513121500&ald_media_id=17670&ald_link_key=a732039a2b7053e8",
+					"scene": "1037",
+					"referrerInfo": {
+						"extraData": "{}",
+						"appId": "wxaecbf97124a50aa2"
+					}
+				},
+				{
+					"id": 3,
+					"name": "广告 - 广告生效后",
+					"query": "appid=wxaecbf97124a50aa2&start=20190513121500&ald_media_id=17670&ald_link_key=a732039a2b7053e8",
+					"scene": "1095"
+				},
+				{
+					"id": 4,
+					"name": "跳转 - 广告生效后",
+					"query": "appid=wxaecbf97124a50aa2&start=20190513121500&ald_media_id=17670&ald_link_key=a732039a2b7053e8",
+					"scene": "1037",
+					"referrerInfo": {
+						"extraData": "{}",
+						"appId": "wxaecbf97124a50aa2"
+					}
+				},
+				{
+					"id": 5,
+					"name": "测试精准屏蔽",
+					"query": "",
+					"scene": "1048"
+				}
+			]
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
+}

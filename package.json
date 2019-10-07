@@ -1,0 +1,28 @@
+{
+  "name": "gun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "originGame.js",
+  "scripts": {
+    "debug": "parcel build ./originGame.js -d build --no-minify",
+    "build": "parcel build ./originGame.js -d build --no-cache"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties"
+      ]
+    ],
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "parcel-bundler": "^1.12.3"
+  }
+}
